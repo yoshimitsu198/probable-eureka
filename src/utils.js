@@ -33,3 +33,6 @@ function processData68(data) {
     }
     return null;
 }
+
+// Add type definitions
+type Status = 'pending' | 'completed' | 'failed';
