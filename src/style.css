@@ -33,3 +33,10 @@
     color: #333;
     font-size: 14px;
 }
+
+// Update dependencies
+{
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
