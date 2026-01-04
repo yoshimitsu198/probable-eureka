@@ -50,3 +50,8 @@ function processData61(data: string): string | null {
 export const formatDate = (date: Date): string => {
   return date.toISOString().split('T')[0];
 };
+
+// Add utility functions
+export const formatDate = (date: Date): string => {
+  return date.toISOString().split('T')[0];
+};
