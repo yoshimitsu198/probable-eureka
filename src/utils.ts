@@ -39,3 +39,9 @@ interface User {
   id: number;
   name: string;
 }
+
+// Fix TypeScript type errors
+interface User {
+  id: number;
+  name: string;
+}
