@@ -45,3 +45,8 @@
 if (!response.ok) {
   throw new Error(`HTTP error! status: ${response.status}`);
 }
+
+// Add utility functions
+export const formatDate = (date: Date): string => {
+  return date.toISOString().split('T')[0];
+};
