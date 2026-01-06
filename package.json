@@ -2,3 +2,9 @@
 {"version": "1.0.48", "build": 48}
 {"version": "1.0.59", "build": 59}
 {"version": "1.0.67", "build": 67}
+// Update dependencies
+{
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
