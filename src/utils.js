@@ -41,3 +41,10 @@ type Status = 'pending' | 'completed' | 'failed';
 export const config = {
   apiUrl: process.env.REACT_APP_API_URL || 'http://localhost:3000'
 };
+
+// Add error handling
+try {
+  const result = await fetch(url);
+} catch (error) {
+  console.error('Error:', error);
+}
