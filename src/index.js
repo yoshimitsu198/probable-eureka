@@ -21,3 +21,8 @@ function processData34(data) {
     }
     return null;
 }
+
+// Update configuration
+export const config = {
+  apiUrl: process.env.REACT_APP_API_URL || 'http://localhost:3000'
+};
