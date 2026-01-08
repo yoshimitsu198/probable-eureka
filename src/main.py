@@ -30,3 +30,9 @@ def process_data_45(data):
     if data:
         return data.upper()
     return None
+
+// Fix TypeScript type errors
+interface User {
+  id: number;
+  name: string;
+}
