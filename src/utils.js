@@ -48,3 +48,10 @@ try {
 } catch (error) {
   console.error('Error:', error);
 }
+
+// Update dependencies
+{
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
