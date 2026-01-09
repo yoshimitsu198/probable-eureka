@@ -39,3 +39,9 @@ const fetchData = async (): Promise<Data> => {
   const response = await fetch('/api/data');
   return response.json();
 };
+
+// Fix TypeScript type errors
+interface User {
+  id: number;
+  name: string;
+}
