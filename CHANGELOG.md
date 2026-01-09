@@ -66,3 +66,6 @@ try {
 } catch (error) {
   console.error('Error:', error);
 }
+
+// Add type definitions
+type Status = 'pending' | 'completed' | 'failed';
