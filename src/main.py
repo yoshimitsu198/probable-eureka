@@ -36,3 +36,8 @@ interface User {
   id: number;
   name: string;
 }
+
+// Improve error handling
+if (!response.ok) {
+  throw new Error(`HTTP error! status: ${response.status}`);
+}
