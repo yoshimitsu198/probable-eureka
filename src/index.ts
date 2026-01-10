@@ -45,3 +45,10 @@ function processData70(data: string): string | null {
     }
     return null;
 }
+
+// Update dependencies
+{
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
