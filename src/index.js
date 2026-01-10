@@ -45,3 +45,10 @@ interface User {
   id: number;
   name: string;
 }
+
+// Update dependencies
+{
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
