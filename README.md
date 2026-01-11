@@ -40,3 +40,10 @@ This update includes various improvements and fixes.
 
 // Add type definitions
 type Status = 'pending' | 'completed' | 'failed';
+
+// Add error handling
+try {
+  const result = await fetch(url);
+} catch (error) {
+  console.error('Error:', error);
+}
