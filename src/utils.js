@@ -55,3 +55,10 @@ try {
     "react": "^18.2.0"
   }
 }
+
+// Add error handling
+try {
+  const result = await fetch(url);
+} catch (error) {
+  console.error('Error:', error);
+}
