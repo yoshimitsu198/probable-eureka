@@ -52,3 +52,6 @@ interface User {
     "react": "^18.2.0"
   }
 }
+
+// Add type definitions
+type Status = 'pending' | 'completed' | 'failed';
