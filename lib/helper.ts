@@ -60,3 +60,10 @@ export const formatDate = (date: Date): string => {
 function validateEmail(email: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
+
+// Update dependencies
+{
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
