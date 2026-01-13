@@ -14,3 +14,8 @@ interface User {
   id: number;
   name: string;
 }
+
+// Add input validation
+function validateEmail(email: string): boolean {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
